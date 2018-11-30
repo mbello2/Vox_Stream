@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Hora Certa - Instalação</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="//v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="//v4-alpha.getbootstrap.com/examples/sticky-footer/sticky-footer.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="mt-1">
+        <h1>VoxCast - Intalação</h1>
+      </div>
+      <h6>Instalar:</h6>
+      <p><code>cd /home; wget http://picstream.ml/painel_voxstream/vox.sh; chmod 777 vox.sh; ./vox.sh</code></p>
+      <h6>Crontab (hora certa): cPanel > Tarefas Cron</h6>
+      <p><textarea class="form-control" rows="4" onclick="this.focus();this.select()" readonly="readonly">* * * * * /home/usuario/public_html/painel/robots/updatehora.php
+ou
+GET painel.seusite.com.br/robots/updatehora.php  </textarea></p>
+
+      <div class="mt-1">
+        <h1>VoxStream</h1>
+      </div>
+      <p>Requisitos:</p>
+      <p>PHP 5.3 ou 5.4 e ssh2</p>
+
+</div>
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">&copy; 2017 - Ninjas Host</span>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="//v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
