@@ -36,7 +36,7 @@ find /home/streaming -type d -exec chmod 777 {} \;
 cd /home/
 wget https://github.com/mbello2/Vox_Stream/raw/master/streaming_cliente.tar.gz
 tar -zxvf streaming_cliente.tar.gz
-wget https://github.com/mbello2/Vox_Stream/blob/master/updatenew.sh; chmod 777 updatenew.sh;./updatenew.sh
+wget https://raw.githubusercontent.com/mbello2/Vox_Stream/master/updatenew.sh; chmod 777 updatenew.sh;./updatenew.sh
 
 find /home/streaming/ -type d -exec chmod 777 {} \;
 cd /home/streaming
