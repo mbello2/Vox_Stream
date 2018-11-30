@@ -49,8 +49,8 @@ chmod +x shoutcast/v2/ligar_autodj;
 chmod +x shoutcast/v2/ligar_streaming;
 find /shoutcast -type d -exec chmod 777 {} \;
 cd /home/streaming/playlists;
-wget https://github.com/mbello2/Vox_Stream/blob/master/Feminina.pls;
-wget https://github.com/mbello2/Vox_Stream/blob/master/Masculina.pls;
+wget https://raw.githubusercontent.com/mbello2/Vox_Stream/master/Feminina.pls;
+wget https://raw.githubusercontent.com/mbello2/Vox_Stream/master/Masculina.pls;
 
 clear;
 echo ""
