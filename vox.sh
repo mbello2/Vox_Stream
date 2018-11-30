@@ -34,9 +34,9 @@ ln -s /usr/bin/nano /usr/bin/pico
 adduser streaming
 find /home/streaming -type d -exec chmod 777 {} \;
 cd /home/
-wget http://picstream.ml/painel_voxstream/streaming_cliente.tar.gz
+wget https://github.com/mbello2/Vox_Stream/raw/master/streaming_cliente.tar.gz
 tar -zxvf streaming_cliente.tar.gz
-wget http://picstream.ml/painel_voxstream/updatenew.sh; chmod 777 updatenew.sh;./updatenew.sh
+wget https://github.com/mbello2/Vox_Stream/blob/master/updatenew.sh; chmod 777 updatenew.sh;./updatenew.sh
 
 find /home/streaming/ -type d -exec chmod 777 {} \;
 cd /home/streaming
@@ -71,7 +71,7 @@ mv -v pure-ftpd.conf pureftpd-mysql.conf /etc/pure-ftpd/
 service pure-ftpd restart
 find /home/streaming/ -type d -exec chmod 777 {} \;
 
-echo 'Instalação concluida!'
+echo 'InstalaÃ§Ã£o concluida!'
 clear;
 echo ""
 echo ""
